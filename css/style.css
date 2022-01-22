@@ -1,7 +1,8 @@
 @font-face {
   font-family: "fa-brands-400";
   font-display: swap;
-  src: url("../fonts/fa-brands-400.woff") format("woff"), url("../fonts/fa-brands-400.woff2") format("woff2");
+  src: url("../fonts/fa-brands-400.woff") format("woff"),
+    url("../fonts/fa-brands-400.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
@@ -9,7 +10,8 @@
 @font-face {
   font-family: "fa-duotone-900";
   font-display: swap;
-  src: url("../fonts/fa-duotone-900.woff") format("woff"), url("../fonts/fa-duotone-900.woff2") format("woff2");
+  src: url("../fonts/fa-duotone-900.woff") format("woff"),
+    url("../fonts/fa-duotone-900.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
@@ -17,7 +19,8 @@
 @font-face {
   font-family: "fa-light-300";
   font-display: swap;
-  src: url("../fonts/fa-light-300.woff") format("woff"), url("../fonts/fa-light-300.woff2") format("woff2");
+  src: url("../fonts/fa-light-300.woff") format("woff"),
+    url("../fonts/fa-light-300.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
@@ -25,7 +28,8 @@
 @font-face {
   font-family: "fa-regular-400";
   font-display: swap;
-  src: url("../fonts/fa-regular-400.woff") format("woff"), url("../fonts/fa-regular-400.woff2") format("woff2");
+  src: url("../fonts/fa-regular-400.woff") format("woff"),
+    url("../fonts/fa-regular-400.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
@@ -33,7 +37,8 @@
 @font-face {
   font-family: "fa-solid-900";
   font-display: swap;
-  src: url("../fonts/fa-solid-900.woff") format("woff"), url("../fonts/fa-solid-900.woff2") format("woff2");
+  src: url("../fonts/fa-solid-900.woff") format("woff"),
+    url("../fonts/fa-solid-900.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
@@ -41,7 +46,8 @@
 @font-face {
   font-family: "TTLakes-Medium";
   font-display: swap;
-  src: url("../fonts/TTLakes-Medium.woff") format("woff"), url("../fonts/TTLakes-Medium.woff2") format("woff2");
+  src: url("../fonts/TTLakes-Medium.woff") format("woff"),
+    url("../fonts/TTLakes-Medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
 }
@@ -49,7 +55,8 @@
 @font-face {
   font-family: "TTLakesCompressed-Black";
   font-display: swap;
-  src: url("../fonts/TTLakesCompressed-Black.woff") format("woff"), url("../fonts/TTLakesCompressed-Black.woff2") format("woff2");
+  src: url("../fonts/TTLakesCompressed-Black.woff") format("woff"),
+    url("../fonts/TTLakesCompressed-Black.woff2") format("woff2");
   font-weight: 900;
   font-style: normal;
 }
@@ -57,7 +64,8 @@
 @font-face {
   font-family: "TTLakesCondensed-Bold";
   font-display: swap;
-  src: url("../fonts/TTLakesCondensed-Bold.woff") format("woff"), url("../fonts/TTLakesCondensed-Bold.woff2") format("woff2");
+  src: url("../fonts/TTLakesCondensed-Bold.woff") format("woff"),
+    url("../fonts/TTLakesCondensed-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
 }
@@ -155,7 +163,7 @@ h6 {
 .wrapper {
   width: 100%;
   min-height: 100%;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 .container {
@@ -163,7 +171,7 @@ h6 {
   min-height: 88px;
   margin: 0 auto;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   background-color: #f8f8f8;
 }
 
@@ -180,11 +188,11 @@ h6 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding: 0px 16px;
   min-height: 88px;
   background-color: #ffffff;
@@ -198,11 +206,11 @@ h6 {
   display: flex;
   display: -moz-flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   border-right: 2px solid #eaeaea;
   border-radius: 1px;
   height: 37px;
@@ -238,11 +246,11 @@ h6 {
   display: flex;
   display: -moz-flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .header__list li {
@@ -306,9 +314,10 @@ h6 {
   display: flex;
   display: -moz-flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   width: 1120px;
   margin-left: 16px;
+  overflow: scroll;
 }
 
 .main__list li {
@@ -357,15 +366,15 @@ h6 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   margin-top: 24px;
 }
 
 .main__text {
   -webkit-box-flex: 0;
-      -ms-flex: 0 1 auto;
-          flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   padding-right: 15px;
 }
 
@@ -418,13 +427,14 @@ h6 {
 
 .main__img {
   -webkit-box-flex: 0;
-      -ms-flex: 0 1 auto;
-          flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   margin-left: 0px;
 }
 
 .main__img img {
   width: 100%;
+  border-radius: 5px;
 }
 
 @media (min-width: 479.9px) {
@@ -471,15 +481,15 @@ h6 {
   .main__items {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     margin-top: 19px;
   }
 
   .main__text {
     -webkit-box-flex: 0;
-        -ms-flex: 0 1 490px;
-            flex: 0 1 490px;
+    -ms-flex: 0 1 490px;
+    flex: 0 1 490px;
   }
 
   .main__text p {
@@ -497,8 +507,8 @@ h6 {
 
   .main__img {
     -webkit-box-flex: 0;
-        -ms-flex: 0 1 530px;
-            flex: 0 1 530px;
+    -ms-flex: 0 1 530px;
+    flex: 0 1 530px;
     margin-left: 15px;
   }
 }
